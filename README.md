@@ -39,8 +39,9 @@ Vad ska vi göra idag? - Städa sajt tree igen, och tänk på layout till andra 
 
 Vilka hinder finns? - Carola hade problem att få information med WBS för att länken funkade inte men vi löste det. 
 
+--------------------
 ##Möte 17/12: 
-
+--------------
 Scrum master Carola. 
 
 Medverkande: Haeju, Johan, Carola, Pontus.
