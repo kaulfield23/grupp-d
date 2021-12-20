@@ -40,7 +40,7 @@ Vad ska vi göra idag? - Städa sajt tree igen, och tänk på layout till andra 
 Vilka hinder finns? - Carola hade problem att få information med WBS för att länken funkade inte men vi löste det. 
 
 --------------------
-##Möte 17/12: 
+## Möte 17/12: 
 --------------
 Scrum master Carola. 
 
@@ -98,3 +98,21 @@ Inför måndag 20/12;
 Pontus- filmer. Haeju- startsidan. Johan- om oss.  Carola-biljettbokning. Roger- Meny & snacks. 
 
 Nästa möte måndag 20/12. 
+
+## Möte 20/12
+
+Scrum Master Johan.
+
+Medverkande:
+Carola, Johan, Haeju, Pontus, Roger
+
+1.Vad har vi gjort i fredags?
+-Brodera ut sajt tree.
+-La in alla PBIs som issues på GH
+-Läst på om webpack/bundling och Heroku
+
+2.Vad ska vi göra idag?
+-Lägga upp boilerplate med index.html, js.fil, css.fil, sass, webpack/bundling.
+
+3. Hinder:
+-Vi hade lite problem med komma igång med Heroku.
