@@ -116,3 +116,30 @@ Carola, Johan, Haeju, Pontus, Roger
 
 3. Hinder:
 -Vi hade lite problem med komma igång med Heroku.
+
+## Möte 21/12
+
+Tomtefar: Pontus.
+
+Medverkande:
+Carola, Johan, Haeju, Pontus, 
+
+1.Vad gjorde vi senast?
+Några har valt sina PBI som man vill arbeta med.
+
+
+
+2.Vad ska vi göra idag?
+- De som inte valt 5 PBI väljer det idag.
+- Kolla om vi behöver bryta ner våra PBIs till mindre PBIs.
+- Utföra en poker planning
+
+
+3. Hinder:
+- Problem med setup av boilerplate, css/sass fungerade inte.
+    - LÖST: Felet var att ”src” istället för ”href” i index.html länkande till css-filen.
+
+
+* Utfört planning poker för vår Sprint backlog
+* Arbetspoäng från start: 120 (4)
+* Sprint backlog total points: 120 (4)
