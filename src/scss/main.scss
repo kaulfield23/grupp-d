@@ -10,11 +10,9 @@ body{
   display: grid;
   grid-template-rows: repeat(3, auto);
 }
-.hey{
-  border:2px solid black;
-  height:500px;
-}
+
 @import './misc/variable';
 @import './misc/mixins';
 @import './indexPage/navbar';
 @import './indexPage/mainContainer';
+@import './indexPage/footer';

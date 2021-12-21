@@ -1,23 +1,95 @@
 .mainContainer{
+    @include desktop{
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
     .commercial{
+        @include desktop{
+            display:block;
+            grid-column: 1/3;
+            margin-top:190px;
+        }
+        .eventContainer{
+            padding:10px;
+        }
+        .events{
+            @include desktop{
+                height:100px;
+                margin:10px 0;
+                border:2px solid rgb(64, 72, 67);
+            }
+        }
         display:none;
+    }
+    .movies{
+        margin-top:50px;
+        @include desktop{
+            margin-top:130px;
+        }
+        h1{
+            text-align: center;
+            padding:1rem;
+            background-color: $cDarkGreen;
+            font-family: 'Bebas Neue';
+            letter-spacing: 0.5rem;
+            color:rgb(209, 214, 211);
+            transition: background-color 0.5s ease;
+            width:340px;
+            margin: 0 auto;
+            &:hover{
+                background-color:rgb(91, 133, 111);
+            }
+            @include desktop{
+                width:100%;
+            }
+        }
+        h3{
+            text-align: center;
+            margin:2.2rem 0;
+            cursor: pointer;
+        }
+        grid-column:3/11;
+        .movieContainer{
+            border:2px solid rgb(204, 185, 146);
+            padding:0 10px;
+            text-align: center;
+            .movieLists{
+                border:1px solid rgb(204, 185, 146);
+                padding:80px 0;
+                margin:1rem 0;
+                @include desktop{
+                    padding:150px 0;
+                    margin:3rem 0;
+                }
+            }
+        }
     }
     .availableMovies{
         display:none;
-    }
-    @include desktop{
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        .commercial{
-            display:block;
-            background-color: palevioletred;
+        @include desktop{
+            display: block;
+            grid-column: 11/13;
         }
-        .movies{
-            background-color: bisque;
+        .kalendarium{
+            border: 2px solid rgb(170, 110, 110);
+            @include justifyCenter;
+            height:50px;
+            margin:200px 10px 0 10px;
         }
-        .availableMovies{
-            display:block;
-            background-color: plum;
+        .ticketLists{
+            margin:0 10px 5rem 10px;
+            border:2px solid rgb(170, 110, 110);
+            .time{
+                padding:10px;
+                .availableLists{
+                    padding:30px 0;
+                    margin:1rem 0;
+                    border:2px solid rgb(170, 110, 110);
+
+                }
+            }
+           
+            
         }
     }
 }

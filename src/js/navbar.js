@@ -1,3 +1,3 @@
-export const sayHi = () =>{
-    console.log('hi')
-}
+export const checking =() =>{
+    console.log('navbar.js is loaded')
+} 
