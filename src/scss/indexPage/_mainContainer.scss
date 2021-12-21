@@ -1,0 +1,23 @@
+.mainContainer{
+    .commercial{
+        display:none;
+    }
+    .availableMovies{
+        display:none;
+    }
+    @include desktop{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        .commercial{
+            display:block;
+            background-color: palevioletred;
+        }
+        .movies{
+            background-color: bisque;
+        }
+        .availableMovies{
+            display:block;
+            background-color: plum;
+        }
+    }
+}

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+  overflow-x: hidden;
 }
 body{
   height:100%;
@@ -13,5 +14,7 @@ body{
   border:2px solid black;
   height:500px;
 }
-@import './navbar';
-@import './mainContainer';
+@import './misc/variable';
+@import './misc/mixins';
+@import './indexPage/navbar';
+@import './indexPage/mainContainer';

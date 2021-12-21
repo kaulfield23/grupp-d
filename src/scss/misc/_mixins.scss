@@ -1,0 +1,10 @@
+@mixin desktop {
+    @media screen and (min-width: $bpDesktop) {
+      @content;
+    }
+}
+
+@mixin justifyCenter {
+    display:flex;
+    justify-content: center;
+}
