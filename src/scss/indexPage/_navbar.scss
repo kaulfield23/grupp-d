@@ -1,10 +1,14 @@
 .navbar {
   background-color: $cDarkBeige;
+
+  padding-top: 10px;
+  @include desktop {
+  }
   a {
     text-decoration: none;
   }
   .navbarLogo {
-    margin: 1rem 2rem 1rem 0;
+    margin: 0 2rem 1rem 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -16,10 +20,12 @@
       align-items: flex-end;
     }
     .logoText {
+      padding-bottom: 20px;
       a {
         color: $cDarkgrey;
         @include desktop {
           font-size: 50px;
+          padding-bottom: 0;
         }
       }
     }
@@ -31,7 +37,7 @@
     }
   }
   .navbarMenu {
-      display:none;
+    display: none;
     @include desktop {
       @include justifyCenter;
       align-items: center;
@@ -39,7 +45,7 @@
         width: 100px;
       }
       .menuName {
-        color:$cDarkWhite;
+        color: $cDarkWhite;
       }
     }
   }
@@ -50,8 +56,8 @@
     font-size: 30px;
     color: $cDarkgrey;
     cursor: pointer;
-    @include desktop{
-        display: none;
+    @include desktop {
+      display: none;
     }
   }
 }

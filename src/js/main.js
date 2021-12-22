@@ -1,2 +1,2 @@
-import { checking } from "./navbar.js";
-console.log(checking());
+export * from "./navbar";
+export * from "./carousel";

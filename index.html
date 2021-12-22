@@ -13,9 +13,16 @@
       src="https://kit.fontawesome.com/07a95dbd5e.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="shortcut icon" href="#" />
 
-    <title>Risbäck Bio</title>
+    <title>Cinema Risbäck</title>
   </head>
+
   <body>
     <header>
       <nav class="navbar">
@@ -40,7 +47,44 @@
         </a>
       </nav>
     </header>
-    <div class="carousel">this is carousel</div>
+    <div class="carousel">
+      <div class="carousel-cell">
+        <img src="./src/img/Dune-1.jpg" alt="dune" />
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://catalog.cinema-api.com/cf/images/ncg-images/a2bf7d7644c441f39b4617dcaab84932.jpg?width=240&version=E014D09A01258F413C7D9872A3BB2F81&format=webp"
+          alt="One World Trade"
+        />
+      </div>
+      <div class="carousel-cell">
+        <img src="./src/img/Dune-1.jpg" alt="drizzle" />
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg"
+          alt="cat nose"
+        />
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg"
+          alt="contrail"
+        />
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg"
+          alt="golden hour"
+        />
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg"
+          alt="flight formation"
+        />
+      </div>
+    </div>
     <main class="mainContainer">
       <div class="commercial">
         <div class="cinemaEvent eventContainer">
@@ -58,28 +102,29 @@
           <div class="mEvents events">movie event -2</div>
           <div class="mEvents events">movie event -3</div>
         </div>
+        <h3 class="moreMovies">More movies</h3>
       </div>
       <div class="movies">
-        <h1 class="categoryForMovies">Kommer snart</h1>
+        <h1>Kommer snart</h1>
         <div class="movieContainer">
           <div class="upcomingMovie movieLists">upcoming movie -1</div>
           <div class="upcomingMovie movieLists">upcoming movie -2</div>
           <div class="upcomingMovie movieLists">upcoming movie -3</div>
         </div>
-        <h3 class="moreMovies">More movies</h3>
-        <h1 class="categoryForMovies">Visas nu</h1>
+        <h3>More movies</h3>
+        <h1>Visas nu</h1>
         <div class="movieContainer">
           <div class="onNowMovie movieLists">on cinema now -1</div>
           <div class="onNowMovie movieLists">on cinema now -2</div>
           <div class="onNowMovie movieLists">on cinema now -3</div>
         </div>
-        <h3 class="moreMovies">More movies</h3>
+        <h3>More movies</h3>
       </div>
       <div class="availableMovies">
         <div class="kalendarium">kalendarium</div>
         <div class="ticketLists">
           <div class="today time">
-            <h3>Idag</h3>
+            <h3>today</h3>
             <ul>
               <li class="availableLists">list</li>
               <li class="availableLists">list</li>
@@ -91,7 +136,7 @@
         <div class="ticketLists">
           <div class="ticketeLists">
             <div class="tomorrow time">
-              <h3>Imorgon</h3>
+              <h3>tomorrow</h3>
               <ul>
                 <li class="availableLists">list</li>
                 <li class="availableLists">list</li>
