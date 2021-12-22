@@ -152,13 +152,13 @@ Medverkande:
 Carola, Johan, Haeju, Pontus, Roger
 
 1. Vad gjorde vi senast
-Utförde en pokerplanning 
-Har haft gruppgenomgång med Andres
+- Utförde en pokerplanning 
+- Har haft gruppgenomgång med Andres
 
 2. Vad ska vi göra idag
-Gruppen gjorde code review på Haejus design på index sidan och Johan gjorde en merged.
-Alla i gruppen börjar jobba med sina PBIs
+- Gruppen gjorde code review på Haejus design på index sidan och Johan gjorde en merged.
+- Alla i gruppen börjar jobba med sina PBIs
 
 3. Hinder
-Gruppen lyfte frågan om gamla branches ska vara kvar Scrum Master Roger ska skriva till Andreas och fråga.
-Nästa möte 23/12 klockan 9
+- Gruppen lyfte frågan om gamla branches ska vara kvar Scrum Master Roger ska skriva till Andreas och fråga.
+- Nästa möte 23/12 klockan 9
