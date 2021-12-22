@@ -7,4 +7,7 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: "bundle.js",
   },
+  experiments: {
+    futureDefaults: true,
+  },
 };

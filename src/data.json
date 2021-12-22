@@ -1,0 +1,114 @@
+{
+  "movies": [
+    {
+      "_id": 1,
+      "title": "Ainbo: Amazonas väktare",
+      "description": "Ainbo: Amazonas väktare är berättelsen om en ung flicka som föddes och växte upp i den djupaste djungeln i Amazonas.",
+      "genres": ["Äventyr", "Komedi", "Familj", "Animerat"],
+      "length": "1 tim 24 min",
+      "age": 7,
+      "rating": 3,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/a2bf7d7644c441f39b4617dcaab84932.jpg?width=240&version=E014D09A01258F413C7D9872A3BB2F81&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=fMbV1BDlmqQ"
+    },
+    {
+      "_id": 2,
+      "title": "Baby-bossen 2: Familjeföretaget",
+      "description": "Bröderna Templeton - Tim och hans Babyboss-lillebror har blivit vuxna och glidit isär. Tim är gift och hemma-pappa. Ted är hedgefond-VD. Men en ny babyboss med ett banbrytande tillvägagångssätt och inställningen att ”allt är möjligt” kommer att föra dem samman igen... och inspirera till ett nytt familjeföretag.",
+      "genres": ["Äventyr", "Komedi", "Familj", "Animerat"],
+      "length": "1 tim 47 min",
+      "age": 7,
+      "rating": 3,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/156e1c728c0e4158b85eaa7236de17cf.jpg?width=240&version=AEF2B771F19E95BF429F626A91D95BEC&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=QPzy8Ckza08"
+    },
+    {
+      "_id": 3,
+      "title": "Dune",
+      "description": "Paul Atreides, en briljant och talangfull ung man född med ett storslaget öde, måste resa till den farligaste planeten i universum för att säkra sin familjs och sitt folks framtid. När illasinnade krafter kastas in i en konflikt över tillgången på planetens mest värdefulla råvara – ett ämne med förmåga att låsa upp mänsklighetens fulla potential – kommer bara de som övervinner sina rädslor att överleva.",
+      "genres": ["Äventyr", "Drama", "Sci-Fi"],
+      "length": "2 tim 37 min",
+      "age": 11,
+      "rating": 5,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=8g18jFHCLXk"
+    },
+    {
+      "_id": 4,
+      "title": "Venom: Let There Be Carnage",
+      "description": "Eddie Brock försöker återupprätta sin karriär genom att intervjua seriemördaren Cletus Kasady, som istället blir värd för symbioten Carnage och som i sin tur flyr från fängelset efter en misslyckad avrättning.",
+      "genres": ["Action", "Skräck", "Sci-Fi"],
+      "length": "1 tim 37 min",
+      "age": 15,
+      "rating": 4,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/0242ca14a40c4a20adc4278d6d5d8853.jpg?width=240&version=1337BBB120520A6A8927D5C437D9DE19&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=-ezfi6FQ8Ds"
+    },
+    {
+      "_id": 5,
+      "title": "The Matrix Resurrections",
+      "description": "Den efterlängtade fjärde filmen i MATRIX-universumet, från den banbrytande franchisen som omdefinierade en genre. Filmen återförenar Keanu Reeves och Carrie-Anne Moss som Neo och Trinity, de ikoniska rollerna de gjorde kända i “The Matrix.”",
+      "genres": ["Action", "Sci-Fi"],
+      "length": "2 tim 27 min",
+      "age": 11,
+      "rating": 5,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/83a647a9bf5a4f1ab1520210cd8f29c7.jpg?width=240&version=FFC14568CDEE5503DEDDB7EEB3FC2940&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=9ix7TUGVYIo"
+    },
+    {
+      "_id": 6,
+      "title": "House of Gucci",
+      "description": "Under tre decennier av kärlek, svek, makt, hämnd och mord, ser vi vad ett namn kan betyda, vad det är värt och hur långt en familj kan gå för att få kontroll.",
+      "genres": ["Drama", "Thriller", "Crime"],
+      "length": "2 tim 37 min",
+      "age": 11,
+      "rating": 2,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2bb6d8d9c375416f82584e0a0824b7cd.jpg?width=240&version=FF84E2F7557E2E2836A0C7EFFE844AAE&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=pGi3Bgn7U5U"
+    },
+    {
+      "_id": 7,
+      "title": "Sword Art Online: Progressive - Aria of a Starless Night",
+      "description": "Asuna Yuuki ger sig in i den virtuella världen när det avancerade VR-spelet Sword Art Online äntligen släpps. När spelarna väl är inne i spelet utropar The Game Master att de nu är fångade i spelet, utan något sätt att logga ut. Han låter dem också veta att om de skulle komma att dö i spelet, så sker det även i verkligheten … Men trots den panik som utbryter, och att hon inte vet något om denna främmande värld, är Asuna fast besluten att kämpa för sin överlevnad och finna vägen ut.",
+      "genres": ["Anime", "Action", "Äventyr"],
+      "length": "1 tim 37 min",
+      "age": 11,
+      "rating": 3,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/01691481cbe1482f8f4c8063510f9c6f.jpg?width=240&version=A19103CA7793183CD8B9765948343211&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=blAzIwXB9zo"
+    },
+    {
+      "_id": 8,
+      "title": "Jag är Zlatan",
+      "description": "Jag är Zlatan är en sann underdog-story om killen från Rosengård som inte hade något, men som fick allt. Med talang, hårt arbete och en stark tro på sig själv och sin livsdröm tog han sig till toppen, trots en rad motgångar längs vägen.",
+      "genres": ["Drama"],
+      "length": "1 tim 41 min",
+      "age": 7,
+      "rating": 1,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/ea33a0786df44ae3ba11b00cbf4c9c45.jpg?width=240&version=72C5A354FCD4FC504ED7C720777F50F5&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=MYXNGINlpVU"
+    },
+    {
+      "_id": 9,
+      "title": "83",
+      "description": "Den 25 juni 1983 hamnade Indien åter på världsscenen för cricket, då de slog dubbla världsmästarna Västindien på Lord's Cricket Ground.",
+      "genres": ["Drama", "Sport"],
+      "length": "2 tim 42 min",
+      "age": 15,
+      "rating": 2,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/27495dee3b1741c19ba203c0843b61e4.jpg?width=240&version=9D623BE10E734B50C2C20612C5F2430E&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=QHdkC6Kn0Io"
+    },
+    {
+      "_id": 10,
+      "title": "Drottning Margareta",
+      "description": "Året är 1402 och en kvinna regerar över ett nytt nordiskt rike. Drottning Margareta har enat Danmark, Norge och Sverige i en union, som hon styr genom sin adoptivson, Kung Erik. Unionen är omgiven av fiender och Margareta planerar därför ett äktenskap mellan Erik och den engelska prinsessan Filippa. En allians med England skulle stärka Kalmarunionen och skydda den mot angrepp. Men en konspiration pågår och Margareta hamnar i ett omöjligt dilemma, som kan kosta henne allt.",
+      "genres": ["Drama"],
+      "length": "2 tim",
+      "age": 11,
+      "rating": 4,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/3d06c2c867a4428483180ed62f14f986.jpg?width=240&version=D826CD19B739279127E4C920CB7D22E4&format=webp",
+      "trailer": "https://www.youtube.com/watch?v=GVdFl6GacTI"
+    }
+  ]
+}
