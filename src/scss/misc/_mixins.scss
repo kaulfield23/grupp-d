@@ -1,0 +1,15 @@
+@mixin desktop {
+    @media screen and (min-width: $bpDesktop) {
+      @content;
+    }
+}
+
+@mixin justifyCenter {
+    display:flex;
+    justify-content: center;
+}
+
+@mixin footerBorder{
+  border-color:rgb(172, 160, 160);
+  border-style:solid;
+}
