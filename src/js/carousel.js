@@ -4,7 +4,7 @@ export function carousel() {
     imagesLoaded: true,
     percentPosition: false,
     wrapAround: true,
-    autoPlay:true
+    autoPlay: true,
   });
 
   let imgs = carousel.querySelectorAll(".carousel-cell img");
