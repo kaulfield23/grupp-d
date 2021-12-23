@@ -14,10 +14,31 @@ export const movieCards = (data) => {
   thumbnail.src = data.coverImg;
   visuals.append(thumbnail);
 
-  /*   const trailer = document.createElement("a");
-  trailer.setAttribute("class", "trailer");
-  trailer.setAttribute("href", data.trailer);
-  visuals.append(trailer); */
+  const openVideo = () => {
+    const videoModal = document.createElement("div");
+    videoModal.setAttribute("class", "videoModal");
+    const modalBtn = document.createElement("span");
+    modalBtn.setAttribute("class", "far fa-times-circle");
+    modalBtn.addEventListener("click", (e) => {
+      e.currentTarget.parentNode.remove();
+    });
+
+    const video = document.createElement("iframe");
+    video.setAttribute("class", "video-trailer");
+    video.setAttribute("target", "_parent");
+    video.src = `${data.trailer}`;
+    videoModal.append(video);
+    videoModal.append(modalBtn);
+    card.append(videoModal);
+  };
+
+  const trailer = document.createElement("a");
+  trailer.setAttribute("id", "trailer");
+  trailer.setAttribute("class", "fas fa-play-circle");
+  trailer.addEventListener("click", () => {
+    openVideo();
+  });
+  visuals.append(trailer);
 
   const info = document.createElement("div");
   info.setAttribute("class", "info");

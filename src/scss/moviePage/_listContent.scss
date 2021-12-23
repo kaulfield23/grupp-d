@@ -1,14 +1,42 @@
 .card {
+  position: relative;
   display: flex;
   border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
 }
+.videoModal {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+  .video-trailer {
+    position: relative;
+    width: 100%;
+    height: 15em;
+  }
+  .far {
+    position: absolute;
+    font-size: 2em;
+    left: 92%;
+    top: -6%;
+    color: $cDarkBeige;
+  }
+}
 .visuals {
+  position: relative;
   max-width: 100px;
   height: 100%;
   margin: 0.5em;
   img {
     width: 100%;
     height: 100%;
+  }
+  #trailer {
+    position: absolute;
+    left: 35%;
+    bottom: 45%;
+    font-size: 2em;
+    text-decoration: none;
+    color: $cDarkBeige;
   }
 }
 .info {
