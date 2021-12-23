@@ -1,2 +1,3 @@
-export * from "./navbar";
-export * from "./carousel";
+import { checking } from "./navbar";
+import { carousel } from "./carousel";
+carousel();
