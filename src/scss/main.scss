@@ -5,14 +5,15 @@
   user-select: none;
   overflow-x: hidden;
 }
-body{
-  height:100%;
+body {
+  height: 100%;
   display: grid;
   grid-template-rows: repeat(4, auto);
 }
 
-@import './misc/variable';
-@import './misc/mixins';
-@import './indexPage/navbar';
-@import './indexPage/mainContainer';
-@import './indexPage/footer';
+@import "./misc/variable";
+@import "./misc/mixins";
+@import "./indexPage/navbar";
+@import "./indexPage/mainContainer";
+@import "./indexPage/footer";
+@import "./moviePage/listContent";
