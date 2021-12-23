@@ -20,13 +20,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/js/carousel.js":
+/*!****************************!*\
+  !*** ./src/js/carousel.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"carousel\": () => (/* binding */ carousel)\n/* harmony export */ });\nfunction carousel() {\n  let carousel = document.querySelector(\".carousel\");\n  let flkty = new Flickity(carousel, {\n    imagesLoaded: true,\n    percentPosition: false,\n    wrapAround: true,\n    autoPlay: true,\n  });\n\n  let imgs = carousel.querySelectorAll(\".carousel-cell img\");\n  let docStyle = document.documentElement.style;\n  let transformProp =\n    typeof docStyle.transform == \"string\" ? \"transform\" : \"WebkitTransform\";\n\n  flkty.on(\"scroll\", function () {\n    flkty.slides.forEach(function (slide, i) {\n      let img = imgs[i];\n      let x = ((slide.target + flkty.x) * -1) / 3;\n      img.style[transformProp] = \"translateX(\" + x + \"px)\";\n    });\n  });\n}\n\n\n//# sourceURL=webpack://grupp-d/./src/js/carousel.js?");
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _navbar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar.js */ \"./src/js/navbar.js\");\n\nconsole.log((0,_navbar_js__WEBPACK_IMPORTED_MODULE_0__.checking)());\n\n\n//# sourceURL=webpack://grupp-d/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar */ \"./src/js/navbar.js\");\n/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./carousel */ \"./src/js/carousel.js\");\n\n\n(0,_carousel__WEBPACK_IMPORTED_MODULE_1__.carousel)();\n\n\n//# sourceURL=webpack://grupp-d/./src/js/main.js?");
 
 /***/ }),
 
@@ -46,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"checking\": () => (/* binding */ checking)\n/* harmony export */ });\n/* harmony import */ var _pages_moviepage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/moviepage.js */ \"./src/js/pages/moviepage.js\");\n\n\nconst checking = () => {\n  console.log(\"navbar.js is loaded\");\n};\nconst filmerBtn = document.querySelector(\".menuMovies\");\nfilmerBtn.addEventListener(\"click\", () => {\n  (0,_pages_moviepage_js__WEBPACK_IMPORTED_MODULE_0__.loadMoviePage)();\n});\n\n\n//# sourceURL=webpack://grupp-d/./src/js/navbar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"checking\": () => (/* binding */ checking)\n/* harmony export */ });\n/* harmony import */ var _pages_moviepage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/moviepage */ \"./src/js/pages/moviepage.js\");\n\n\nconst checking = () => {\n  console.log(\"navbar.js is loaded\");\n};\nconst filmerBtn = document.querySelector(\".menuMovies\");\nfilmerBtn.addEventListener(\"click\", () => {\n  (0,_pages_moviepage__WEBPACK_IMPORTED_MODULE_0__.loadMoviePage)();\n});\n\n\n//# sourceURL=webpack://grupp-d/./src/js/navbar.js?");
 
 /***/ }),
 
