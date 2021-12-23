@@ -166,6 +166,7 @@ Carola, Johan, Haeju, Pontus, Roger
 ## Möte 23/12
 
 Scrum master Haeju
+
 Medverkande : Carola, Johan, Haeju, Pontus, Roger
 
 1. Vad gjorde vi senast 
