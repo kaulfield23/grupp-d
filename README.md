@@ -162,3 +162,21 @@ Carola, Johan, Haeju, Pontus, Roger
 3. Hinder
 - Gruppen lyfte frågan om gamla branches ska vara kvar Scrum Master Roger ska skriva till Andreas och fråga.
 - Nästa möte 23/12 klockan 9
+
+##Möte 23/12
+
+Scrum master Haeju
+Medverkande : Carola, Johan, Haeju, Pontus, Roger
+
+1. Vad gjorde vi senast 
+-Skapade Data.json fil för filmen, och gjorde funktionen för fetching information från API
+-fixade bug där ligger i index.html
+
+2. Vad ska vi göra idag
+-code review om carousel. Pratade om burndown chart och hur ska designen ser ut förutom header och footer.
+-Vi ska jobba vidare layout först innan vi bestämmer design för andra saker.
+
+3. Hinder
+-burndown charts nummer var inte korrekt så fixade vi det. Och main-containers sass overwrite andra elements i css för att Haeju inte har skrivit id eller class på h1, h3 element.
+
+Nästa möte : 27/12 kl.9
