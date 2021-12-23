@@ -169,14 +169,14 @@ Scrum master Haeju
 Medverkande : Carola, Johan, Haeju, Pontus, Roger
 
 1. Vad gjorde vi senast 
--Skapade Data.json fil för filmen, och gjorde funktionen för fetching information från API
--fixade bug där ligger i index.html
+- Skapade Data.json fil för filmen, och gjorde funktionen för fetching information från API
+- fixade bug där ligger i index.html
 
 2. Vad ska vi göra idag
--code review om carousel. Pratade om burndown chart och hur ska designen ser ut förutom header och footer.
--Vi ska jobba vidare layout först innan vi bestämmer design för andra saker.
+- code review om carousel. Pratade om burndown chart och hur ska designen ser ut förutom header och footer.
+- Vi ska jobba vidare layout först innan vi bestämmer design för andra saker.
 
 3. Hinder
--burndown charts nummer var inte korrekt så fixade vi det. Och main-containers sass overwrite andra elements i css för att Haeju inte har skrivit id eller class på h1, h3 element.
+- burndown charts nummer var inte korrekt så fixade vi det. Och main-containers sass overwrite andra elements i css för att Haeju inte har skrivit id eller class på h1, h3 element.
 
 Nästa möte : 27/12 kl.9
