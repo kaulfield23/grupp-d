@@ -163,7 +163,7 @@ Carola, Johan, Haeju, Pontus, Roger
 - Gruppen lyfte frågan om gamla branches ska vara kvar Scrum Master Roger ska skriva till Andreas och fråga.
 - Nästa möte 23/12 klockan 9
 
-##Möte 23/12
+## Möte 23/12
 
 Scrum master Haeju
 Medverkande : Carola, Johan, Haeju, Pontus, Roger
