@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
+}
+.visuals {
+  max-width: 100px;
+  height: 100%;
+  margin: 0.5em;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  h1 {
+    color: black;
+    font-family: "Bebas Neue";
+    margin: 0 0 0.1em 0;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Bebas Neue";
+  }
+}
