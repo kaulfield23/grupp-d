@@ -1,2 +1,2 @@
-import {checking} from './navbar';
-console.log(checking())
+import { checking } from "./navbar.js";
+console.log(checking());

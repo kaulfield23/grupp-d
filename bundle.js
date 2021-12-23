@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar */ \"./src/js/navbar.js\");\n\r\nconsole.log((0,_navbar__WEBPACK_IMPORTED_MODULE_0__.checking)())\n\n//# sourceURL=webpack://grupp-d/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _navbar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar.js */ \"./src/js/navbar.js\");\n\nconsole.log((0,_navbar_js__WEBPACK_IMPORTED_MODULE_0__.checking)());\n\n\n//# sourceURL=webpack://grupp-d/./src/js/main.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"checking\": () => (/* binding */ checking)\n/* harmony export */ });\nconst checking =() =>{\r\n    console.log('navbar.js is loaded')\r\n} \n\n//# sourceURL=webpack://grupp-d/./src/js/navbar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"checking\": () => (/* binding */ checking)\n/* harmony export */ });\nconst checking =() =>{\n    console.log('navbar.js is loaded')\n} \n\n//# sourceURL=webpack://grupp-d/./src/js/navbar.js?");
 
 /***/ })
 
