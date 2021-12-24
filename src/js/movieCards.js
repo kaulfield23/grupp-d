@@ -1,5 +1,6 @@
 export const movieCards = (data) => {
   const container = document.querySelector(".movies");
+  const body = document.querySelector("body");
 
   const card = document.createElement("div");
   card.setAttribute("class", "card");
@@ -17,19 +18,17 @@ export const movieCards = (data) => {
   const openVideo = () => {
     const videoModal = document.createElement("div");
     videoModal.setAttribute("class", "videoModal");
-    const modalBtn = document.createElement("span");
-    modalBtn.setAttribute("class", "far fa-times-circle");
-    modalBtn.addEventListener("click", (e) => {
-      e.currentTarget.parentNode.remove();
+    window.addEventListener("click", (e) => {
+      e.target.className.includes("videoModal") ? e.target.remove() : null;
     });
 
     const video = document.createElement("iframe");
     video.setAttribute("class", "video-trailer");
     video.setAttribute("target", "_parent");
+    video.setAttribute("allowfullscreen", "true");
     video.src = `${data.trailer}`;
     videoModal.append(video);
-    videoModal.append(modalBtn);
-    card.append(videoModal);
+    body.append(videoModal);
   };
 
   const trailer = document.createElement("a");
@@ -53,9 +52,4 @@ export const movieCards = (data) => {
   specInfo.setAttribute("class", "specInfo");
   specInfo.innerText = `${data.genres} | ${data.length} | ${data.age} år`;
   info.append(specInfo);
-
-  /*   const rating = document.createElement("span");
-  rating.setAttribute("class", "rating");
-  rating.innerText = data.rating;
-  info.append(rating); */
 };

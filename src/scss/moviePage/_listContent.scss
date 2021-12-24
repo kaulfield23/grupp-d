@@ -3,22 +3,29 @@
   display: flex;
   border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
 }
+@keyframes fadeIntoCinema {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+
 .videoModal {
-  position: absolute;
+  position: fixed;
+  display: flex;
+  align-items: center;
   z-index: 1;
   width: 100%;
+  height: 100%;
+  border: none;
+  animation: fadeIntoCinema 0.3s ease forwards;
 
   .video-trailer {
-    position: relative;
     width: 100%;
     height: 15em;
-  }
-  .far {
-    position: absolute;
-    font-size: 2em;
-    left: 92%;
-    top: -6%;
-    color: $cDarkBeige;
+    border: none;
   }
 }
 .visuals {
@@ -37,6 +44,10 @@
     font-size: 2em;
     text-decoration: none;
     color: $cDarkBeige;
+    cursor: pointer;
+    &:hover {
+      color: lighten($cDarkBeige, 5);
+    }
   }
 }
 .info {
@@ -48,9 +59,13 @@
     color: black;
     font-family: "Bebas Neue";
     margin: 0 0 0.1em 0;
+    cursor: pointer;
   }
   p {
     color: rgba(0, 0, 0, 0.7);
     font-family: "Bebas Neue";
+  }
+  h1:hover {
+    color: lighten(black, 20);
   }
 }
