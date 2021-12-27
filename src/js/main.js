@@ -1,3 +1,9 @@
-import { checking } from "./navbar";
 import { carousel } from "./carousel";
-carousel();
+import { renderCinemaCommercial } from "./commercial";
+import { navbarResponsive } from "./navbar";
+
+window.onload = function () {
+  carousel();
+  navbarResponsive();
+  renderCinemaCommercial();
+};

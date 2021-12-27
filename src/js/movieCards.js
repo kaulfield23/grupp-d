@@ -14,10 +14,29 @@ export const movieCards = (data) => {
   thumbnail.src = data.coverImg;
   visuals.append(thumbnail);
 
-  /*   const trailer = document.createElement("a");
-  trailer.setAttribute("class", "trailer");
-  trailer.setAttribute("href", data.trailer);
-  visuals.append(trailer); */
+  const openVideo = () => {
+    const videoModal = document.createElement("div");
+    videoModal.setAttribute("class", "videoModal");
+    window.addEventListener("click", (e) => {
+      e.target.className.includes("videoModal") ? e.target.remove() : null;
+    });
+
+    const video = document.createElement("iframe");
+    video.setAttribute("class", "video-trailer");
+    video.setAttribute("target", "_parent");
+    video.setAttribute("allowfullscreen", "true");
+    video.src = `${data.trailer}`;
+    videoModal.append(video);
+    body.append(videoModal);
+  };
+
+  const trailer = document.createElement("a");
+  trailer.setAttribute("id", "trailer");
+  trailer.setAttribute("class", "fas fa-play-circle");
+  trailer.addEventListener("click", () => {
+    openVideo();
+  });
+  visuals.append(trailer);
 
   const info = document.createElement("div");
   info.setAttribute("class", "info");
@@ -32,9 +51,4 @@ export const movieCards = (data) => {
   specInfo.setAttribute("class", "specInfo");
   specInfo.innerText = `${data.genres} | ${data.length} | ${data.age} år`;
   info.append(specInfo);
-
-  /*   const rating = document.createElement("span");
-  rating.setAttribute("class", "rating");
-  rating.innerText = data.rating;
-  info.append(rating); */
 };

@@ -9,7 +9,7 @@
       "age": 7,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/a2bf7d7644c441f39b4617dcaab84932.jpg?width=240&version=E014D09A01258F413C7D9872A3BB2F81&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=fMbV1BDlmqQ",
+      "trailer": "https://www.youtube.com/embed/fMbV1BDlmqQ",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -30,7 +30,7 @@
       "age": 7,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/156e1c728c0e4158b85eaa7236de17cf.jpg?width=240&version=AEF2B771F19E95BF429F626A91D95BEC&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=QPzy8Ckza08",
+      "trailer": "https://www.youtube.com/embed/QPzy8Ckza08",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -51,7 +51,7 @@
       "age": 11,
       "rating": 5,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=8g18jFHCLXk",
+      "trailer": "https://www.youtube.com/embed/8g18jFHCLXk",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -72,7 +72,7 @@
       "age": 15,
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/0242ca14a40c4a20adc4278d6d5d8853.jpg?width=240&version=1337BBB120520A6A8927D5C437D9DE19&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=-ezfi6FQ8Ds",
+      "trailer": "https://www.youtube.com/embed/-ezfi6FQ8Ds",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -93,7 +93,7 @@
       "age": 11,
       "rating": 5,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/83a647a9bf5a4f1ab1520210cd8f29c7.jpg?width=240&version=FFC14568CDEE5503DEDDB7EEB3FC2940&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=9ix7TUGVYIo",
+      "trailer": "https://www.youtube.com/embed/9ix7TUGVYIo",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -114,7 +114,7 @@
       "age": 11,
       "rating": 2,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2bb6d8d9c375416f82584e0a0824b7cd.jpg?width=240&version=FF84E2F7557E2E2836A0C7EFFE844AAE&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=pGi3Bgn7U5U",
+      "trailer": "https://www.youtube.com/embed/pGi3Bgn7U5U",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -135,7 +135,7 @@
       "age": 11,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/01691481cbe1482f8f4c8063510f9c6f.jpg?width=240&version=A19103CA7793183CD8B9765948343211&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=blAzIwXB9zo",
+      "trailer": "https://www.youtube.com/embed/blAzIwXB9zo",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -156,7 +156,7 @@
       "age": 7,
       "rating": 1,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/ea33a0786df44ae3ba11b00cbf4c9c45.jpg?width=240&version=72C5A354FCD4FC504ED7C720777F50F5&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=MYXNGINlpVU",
+      "trailer": "https://www.youtube.com/embed/MYXNGINlpVU",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -177,7 +177,7 @@
       "age": 15,
       "rating": 2,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/27495dee3b1741c19ba203c0843b61e4.jpg?width=240&version=9D623BE10E734B50C2C20612C5F2430E&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=QHdkC6Kn0Io",
+      "trailer": "https://www.youtube.com/embed/QHdkC6Kn0Io",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -198,7 +198,7 @@
       "age": 11,
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/3d06c2c867a4428483180ed62f14f986.jpg?width=240&version=D826CD19B739279127E4C920CB7D22E4&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=GVdFl6GacTI",
+      "trailer": "https://www.youtube.com/embed/GVdFl6GacTI",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -219,7 +219,7 @@
       "age": 11,
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/b7e668f8ae0f4b7c804e8c5d3d29a2de.jpg?width=240&version=BB041036F864B00887D909E9A8986C01&format=webp",
-      "trailer": "https://www.youtube.com/watch?v=JfVOs4VSpmA",
+      "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
       "date": ["2022-01-10"],
       "time": 14.3
     }
