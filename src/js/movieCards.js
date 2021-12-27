@@ -1,5 +1,6 @@
 export const movieCards = (data) => {
   const container = document.querySelector(".card-ctn");
+  const body = document.querySelector("body");
 
   const card = document.createElement("div");
   card.setAttribute("class", "card");
