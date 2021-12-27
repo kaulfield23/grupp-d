@@ -219,6 +219,19 @@
         "2022-01-30"
       ],
       "time": 14.3
+    },
+    {
+      "_id": 11,
+      "title": "Spider-Man: No Way Home",
+      "description": "För första gången i filmhistorien får vi följa allas vår favorithjälte Spider-Man utan sin mask, och hur han inte längre kan separera sitt normala liv från riskerna med att vara en superhjälte. När han ber Doctor Strange om hjälp blir insatserna ännu farligare, och han tvingas upptäcka vad det verkligen innebär att vara Spider-Man.",
+      "genres": ["Action", "Äventyr", "Sci-Fi"],
+      "length": "2 tim 28 min",
+      "age": 11,
+      "rating": 4,
+      "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/b7e668f8ae0f4b7c804e8c5d3d29a2de.jpg?width=240&version=BB041036F864B00887D909E9A8986C01&format=webp",
+      "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+      "date": ["2022-01-10"],
+      "time": 14.3
     }
   ]
 }
