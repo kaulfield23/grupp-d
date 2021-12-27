@@ -1,5 +1,4 @@
 export const renderCinemaCommercial = () => {
-  console.log("cinema commercial loaded");
   //description for events
   const cEventDescription = [
     "Come and check out the christmas theme of our cinema!(will change all texts to swedish later)",
@@ -25,7 +24,7 @@ export const renderCinemaCommercial = () => {
 };
 
 //function to create element
-function createElement(type, name) {
+export function createElement(type, name) {
   const element = document.createElement(type);
   element.setAttribute("class", name);
   return element;
