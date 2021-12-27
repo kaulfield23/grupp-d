@@ -16,9 +16,27 @@
       text-align: center;
     }
     .cEvents {
+      @include parentDiv;
       .cImg {
         display: block;
         margin: 10px auto;
+      }
+      .emptyDiv {
+        @include emptyDiv;
+      }
+      &:hover .emptyDiv {
+        @include emptyDivHover;
+      }
+    }
+    .right:hover {
+      transform: translateX(6px);
+      .emptyDiv {
+        top: -20%;
+        left: 0%;
+      }
+      .emptyDiv::after {
+        top: 1%;
+        left: 50%;
       }
     }
     .eventContainer {
@@ -94,5 +112,15 @@
         border: 2px solid rgb(170, 110, 110);
       }
     }
+  }
+}
+
+@keyframes odsoky {
+  0% {
+    transform: translateY(6px);
+  }
+
+  100% {
+    transform: translateY(1px);
   }
 }
