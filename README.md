@@ -4,6 +4,8 @@ https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAv
 ## Link to Whimsical layout
 https://whimsical.com/GUw8AxTkh9WBC9xSXSkUK6
 
+## Burndown chart
+https://whimsical.com/burndown-chart-JxY2hWRwywfvzXTUNSTJX3
 
 ## Möte 14/12:
 
