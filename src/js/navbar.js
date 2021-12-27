@@ -8,6 +8,7 @@ movieBtn.addEventListener("click", () => {
     loadMoviePage();
 });
 
+// navbarResponsive toggles adds a class "responsive" to the hamburger button in navbar
 export const navbarResponsive = () => {
     const hamburger = document.querySelector('.hamburger');
     hamburger.addEventListener('click', () => {
