@@ -14,6 +14,7 @@
       font-family: "Staatliches";
       color: rgb(237, 230, 230);
       text-align: center;
+      letter-spacing: 1px;
     }
     .cEvents {
       @include parentDiv;
@@ -94,22 +95,41 @@
   @include desktop {
     display: block;
     grid-column: 11/13;
-  }
-  .kalendarium {
-    border: 2px solid rgb(170, 110, 110);
-    @include justifyCenter;
-    height: 50px;
-    margin: 200px 10px 0 10px;
-  }
-  .ticketLists {
-    margin: 0 10px 5rem 10px;
-    border: 2px solid rgb(170, 110, 110);
-    .time {
-      padding: 10px;
-      .availableLists {
-        padding: 30px 0;
-        margin: 1rem 0;
-        border: 2px solid rgb(170, 110, 110);
+    .kalendarium {
+      border: 2px solid rgb(170, 110, 110);
+      background-color: rgb(170, 110, 110);
+      color: rgb(245, 240, 240);
+      font-family: $font;
+      @include justifyCenter;
+      align-items: center;
+      height: 50px;
+      margin: 200px 10px 0 10px;
+      letter-spacing: 2px;
+    }
+    .ticketLists {
+      background-color: rgb(248, 246, 247);
+      margin: 0 10px 2rem 10px;
+      border: 2px solid rgb(170, 110, 110);
+      li {
+        list-style: none;
+        padding: 5px 0;
+      }
+      h3 {
+        text-align: center;
+        font-family: $font;
+        color: rgb(70, 68, 68);
+      }
+      .time {
+        padding: 10px;
+        .movieListLi {
+          font-family: "Titillium Web";
+          &:hover {
+            background-color: rgb(245, 229, 210);
+          }
+        }
+        .ticketIcon {
+          color: $cDarkRed;
+        }
       }
     }
   }
