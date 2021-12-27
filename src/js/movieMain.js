@@ -48,7 +48,7 @@ export const moviePageMain = () => {
   const upcoming = document.createElement("a");
   upcoming.setAttribute("id", "movies-upcoming");
   upcoming.setAttribute("class", "filter");
-  upcoming.innerText = "Kommade filmer";
+  upcoming.innerText = "Kommande filmer";
   upcoming.addEventListener("click", () => {
     renderMovies(filterUpcoming(api));
   });
