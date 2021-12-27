@@ -1,156 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/07a95dbd5e.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/07a95dbd5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="shortcut icon" href="#" />
 
     <title>Cinema Risbäck</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="navbar">
-        <div class="navbarLogo">
-          <a href="index.html">
-            <img class="logo" src="./src/img/logo.png" />
-          </a>
-          <div class="logoText">
-            <a href="index.html">Cinema Risbäck</a>
-          </div>
+        <div class="logoHead">
+            <div class="logoContainer">
+                <img class="logo" src="./src/img/logo.png" />
+                <div class="logoText">
+                    <a href="">Cinema Risbäck</a>
+                    <img id="logoSanta" src="./src/img/pixlr-bg-result(4).png">
+                </div>
+            </div>
         </div>
-        <div class="navbarMenu">
-          <img src="./src//img/pixlr-bg-result(4).png" />
-          <a class="menuMovies" href="#">Filmer</a>
-          <a class="menuName" href="#">Biljetter</a>
-          <a class="menuName" href="#">Om oss</a>
-          <a class="menuName" href="#">Meny snacks</a>
-          <a class="menuName" href="#">Covid-info</a>
-        </div>
-        <a href="#" class="hamburger" role="button">
-          <i class="fas fa-bars"></i>
-        </a>
-      </nav>
+        <nav>
+            <div class="topnav" id="navbar">
+                <img id="santaNav" src="./src/img/pixlr-bg-result(4).png">
+                <a href="#news" class="menuMovies">Filmer</a>
+                <a href="#contact">Biljetter/reservation</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Om oss
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">FAQ</a>
+                        <a href="#">Återbetalningsgaranti</a>
+                        <a href="#">Historia</a>
+                        <a href="#">Öppettider</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Meny snacks
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Sortiment</a>
+                        <a href="#">Kampanj</a>
+                        <a href="#">Dricka/Kaffe</a>
+                        <a href="#">Menyer</a>
+                    </div>
+                </div>
+                <a href="#">Covid-info</a>
+                <a href="javascript:void(0)" class="hamburger">&#9776;</a>
+            </div>
+        </nav>
     </header>
     <div class="carousel">
-      <div class="carousel-cell">
-        <img src="./src/img/carousel/dune.jpg" alt="dune" />
-      </div>
-      <div class="carousel-cell">
-        <img src="./src/img/carousel/boss-baby.jpg" alt="boss baby" />
-      </div>
-      <div class="carousel-cell">
-        <img src="./src/img/carousel/venom.jpg" alt="venom" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          src="./src/img/carousel/the-matrix-resurrections.jpg"
-          alt="The Matrix Resurrections"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img src="./src/img/carousel/house-of-gucci.jpg" alt="house of gucci" />
-      </div>
-      <div class="carousel-cell">
-        <img src="src/img/carousel/ainbo.jpg" alt="ainbo" />
-      </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/dune.jpg" alt="dune" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/boss-baby.jpg" alt="boss baby" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/venom.jpg" alt="venom" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/the-matrix-resurrections.jpg" alt="The Matrix Resurrections" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/house-of-gucci.jpg" alt="house of gucci" />
+        </div>
+        <div class="carousel-cell">
+            <img src="src/img/carousel/ainbo.jpg" alt="ainbo" />
+        </div>
     </div>
     <main class="mainContainer">
-      <div class="commercial">
-        <div class="cinemaEvent eventContainer">
-          <div class="cEvents events">cinema event -1</div>
-          <div class="cEvents events">cinema event -2</div>
-          <div class="cEvents events">cinema event -3</div>
-        </div>
-        <div class="snacksEvent eventContainer">
-          <div class="sEvents events">snack discount event -1</div>
-          <div class="sEvents events">snack discount event -1</div>
-          <div class="sEvents events">snack discount event -1</div>
-        </div>
-        <div class="movieEvent eventContainer">
-          <div class="mEvents events">movie event -1</div>
-          <div class="mEvents events">movie event -2</div>
-          <div class="mEvents events">movie event -3</div>
-        </div>
-      </div>
-      <div class="movies">
-        <h1 class="categoryForMovies">Kommer snart</h1>
-        <div class="movieContainer">
-          <div class="upcomingMovie movieLists">upcoming movie -1</div>
-          <div class="upcomingMovie movieLists">upcoming movie -2</div>
-          <div class="upcomingMovie movieLists">upcoming movie -3</div>
-        </div>
-        <h3 class="moreMovies">More movies</h3>
-        <h1 class="categoryForMovies">Visas nu</h1>
-        <div class="movieContainer">
-          <div class="onNowMovie movieLists">on cinema now -1</div>
-          <div class="onNowMovie movieLists">on cinema now -2</div>
-          <div class="onNowMovie movieLists">on cinema now -3</div>
-        </div>
-        <h3 class="moreMovies">More movies</h3>
-      </div>
-      <div class="availableMovies">
-        <div class="kalendarium">kalendarium</div>
-        <div class="ticketLists">
-          <div class="today time">
-            <h3>Idag</h3>
-            <ul>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-            </ul>
-          </div>
-        </div>
-        <div class="ticketLists">
-          <div class="ticketeLists">
-            <div class="tomorrow time">
-              <h3>Imorgon</h3>
-              <ul>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-              </ul>
+        <div class="commercial">
+            <div class="cinemaEvent eventContainer">
+                <div class="cEvents events">cinema event -1</div>
+                <div class="cEvents events">cinema event -2</div>
+                <div class="cEvents events">cinema event -3</div>
             </div>
-          </div>
+            <div class="snacksEvent eventContainer">
+                <div class="sEvents events">snack discount event -1</div>
+                <div class="sEvents events">snack discount event -1</div>
+                <div class="sEvents events">snack discount event -1</div>
+            </div>
+            <div class="movieEvent eventContainer">
+                <div class="mEvents events">movie event -1</div>
+                <div class="mEvents events">movie event -2</div>
+                <div class="mEvents events">movie event -3</div>
+            </div>
         </div>
-      </div>
+        <div class="movies">
+            <h1 class="categoryForMovies">Kommer snart</h1>
+            <div class="movieContainer">
+                <div class="upcomingMovie movieLists">upcoming movie -1</div>
+                <div class="upcomingMovie movieLists">upcoming movie -2</div>
+                <div class="upcomingMovie movieLists">upcoming movie -3</div>
+            </div>
+            <h3 class="moreMovies">More movies</h3>
+            <h1 class="categoryForMovies">Visas nu</h1>
+            <div class="movieContainer">
+                <div class="onNowMovie movieLists">on cinema now -1</div>
+                <div class="onNowMovie movieLists">on cinema now -2</div>
+                <div class="onNowMovie movieLists">on cinema now -3</div>
+            </div>
+            <h3 class="moreMovies">More movies</h3>
+        </div>
+        <div class="availableMovies">
+            <div class="kalendarium">kalendarium</div>
+            <div class="ticketLists">
+                <div class="today time">
+                    <h3>Idag</h3>
+                    <ul>
+                        <li class="availableLists">list</li>
+                        <li class="availableLists">list</li>
+                        <li class="availableLists">list</li>
+                        <li class="availableLists">list</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ticketLists">
+                <div class="ticketeLists">
+                    <div class="tomorrow time">
+                        <h3>Imorgon</h3>
+                        <ul>
+                            <li class="availableLists">list</li>
+                            <li class="availableLists">list</li>
+                            <li class="availableLists">list</li>
+                            <li class="availableLists">list</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
-      <div class="footerElem">Bio i Risbäck</div>
-      <div class="footerElem risbackMap">
-        Cinema Risbäck:
-        <a
-          href="https://www.google.com/maps/place/917+03+Risb%C3%A4ck/@64.705489,15.5149822,14z/data=!3m1!4b1!4m5!3m4!1s0x4670ddacaf8e20e3:0x4c33ae912aa817e2!8m2!3d64.7054904!4d15.5324917"
-        >
+        <div class="footerElem">Bio i Risbäck</div>
+        <div class="footerElem risbackMap">
+            Cinema Risbäck:
+            <a href="https://www.google.com/maps/place/917+03+Risb%C3%A4ck/@64.705489,15.5149822,14z/data=!3m1!4b1!4m5!3m4!1s0x4670ddacaf8e20e3:0x4c33ae912aa817e2!8m2!3d64.7054904!4d15.5324917">
           Risbäck 917 03
         </a>
-      </div>
-      <div class="footerElem risbackNum">
-        <i class="fas fa-mobile-alt"></i>
-        123-45 67 89
-      </div>
+        </div>
+        <div class="footerElem risbackNum">
+            <i class="fas fa-mobile-alt"></i> 123-45 67 89
+        </div>
 
-      <div class="footerElem">
-        <a href="">info@risback.nu</a>
-      </div>
+        <div class="footerElem">
+            <a href="">info@risback.nu</a>
+        </div>
     </footer>
     <script src="bundle.js"></script>
-  </body>
+</body>
+
 </html>
