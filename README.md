@@ -190,23 +190,23 @@ Scrum master Carola.
 
 1.  vad gjorde vi igår?
 
-Johan: implementerar navbar- plan att pullreq den inomkort. 
-Haeju: Commercial- jobbar på den. 
-Roger: Planerat sitt arbete, har för avsikt att börja jobba idag. 
-Carola: Byggt upp den movieinfopage- inte klar. jobbar vidare på den.
+*Johan: implementerar navbar- plan att pullreq den inomkort. 
+*Haeju: Commercial- jobbar på den. 
+*Roger: Planerat sitt arbete, har för avsikt att börja jobba idag. 
+*Carola: Byggt upp den movieinfopage- inte klar. jobbar vidare på den.
 
 2. Vad har vi för avsikt att göra idag?
 
-Johan: Vill kika på Heroku idag.
-Haeju: Movielist- kommande filmer. 
-Roger: Påbörjar arbete med PBI
-Carola: jobbar vidare 
+*Johan: Vill kika på Heroku idag.
+*Haeju: Movielist- kommande filmer. 
+*Roger: Påbörjar arbete med PBI
+*Carola: jobbar vidare 
 
 3. Hinder: 
 
- Johan: behöver se över Heroku och klura ut hur det fungerar. 
- Haeju: Behöver se över datum för hur att ändra data.jason-filen för kunna komma åt kommande filmers datum
- Roger: Inga hinder 
- Carola: tekniska problem som ska lösas, pinpointa renderat card samt loopa igenom data.jason med id bla.
+ *Johan: behöver se över Heroku och klura ut hur det fungerar. 
+ *Haeju: Behöver se över datum för hur att ändra data.jason-filen för kunna komma åt kommande filmers datum
+ *Roger: Inga hinder 
+ *Carola: tekniska problem som ska lösas, pinpointa renderat card samt loopa igenom data.jason med id bla.
 
 Nästa möte: 28/12 kl. 9.00- lyfta frågan: när är vi redo för demo/codereview? (bokning av det) 
