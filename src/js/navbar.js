@@ -14,7 +14,7 @@ export const navbarResponsive = () => {
   hamburger.addEventListener("click", () => {
     let navbar = document.querySelector("#navbar");
     if (navbar.className === "topnav") {
-      navbar.className += "responsive";
+      navbar.className += " responsive";
     } else {
       navbar.className = "topnav";
     }
