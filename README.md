@@ -4,6 +4,8 @@ https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAv
 ## Link to Whimsical layout
 https://whimsical.com/GUw8AxTkh9WBC9xSXSkUK6
 
+## Burndown chart
+https://whimsical.com/burndown-chart-JxY2hWRwywfvzXTUNSTJX3
 
 ## Möte 14/12:
 
@@ -181,3 +183,73 @@ Medverkande : Carola, Johan, Haeju, Pontus, Roger
 - burndown charts nummer var inte korrekt så fixade vi det. Och main-containers sass overwrite andra elements i css för att Haeju inte har skrivit id eller class på h1, h3 element.
 
 Nästa möte : 27/12 kl.9
+---------------------------------------------------------------
+## Möte 27/12
+----------------
+Möte 27/12: Medverkande: Johan, Haeju, Roger, Carola
+
+Scrum master Carola. 
+
+1.  Vad gjorde vi igår?
+
+*Johan: implementerar navbar- plan att pullreq den inomkort. 
+
+*Haeju: Commercial- jobbar på den. 
+
+*Roger: Planerat sitt arbete, har för avsikt att börja jobba idag. 
+
+*Carola: Byggt upp den movieinfopage- inte klar. jobbar vidare på den.
+
+2. Vad har vi för avsikt att göra idag?
+
+*Johan: Vill kika på Heroku idag.
+
+*Haeju: Movielist- kommande filmer.
+ 
+*Roger: Påbörjar arbete med PBI
+
+*Carola: jobbar vidare 
+
+3. Hinder: 
+
+ *Johan: behöver se över Heroku och klura ut hur det fungerar.
+
+ *Haeju: Behöver se över datum för hur att ändra data.jason-filen för kunna komma åt kommande filmers datum.
+
+ *Roger: Inga hinder.
+ 
+ *Carola: tekniska problem som ska lösas, pinpointa renderat card samt loopa igenom data.jason med id bla.
+
+Nästa möte: 28/12 kl. 9.00- lyfta frågan: när är vi redo för demo/codereview? (bokning av det) 
+
+
+##Möte 28/12
+Scrum-master Johan
+Närvarande:
+Johan
+Pontus
+Haeju
+Carola
+Roger
+ 
+1. Vad gjorde vi igår?
+Pontus gjorde klart trailergrej från PBI
+Haeju jobbade med available movies.
+Roger jobbade med covidinfo.
+Carola gjort klart movie info page.
+Johan implementerade navbar
+
+2. Vad ska vi göra idag?
+Pontus ska göra delen med att filtrera fram barnfilmer.
+Haeju jobbar med sina resterande PBIs.
+Roger gör klart sin covid-info page.
+Carola ska få fram lite mer thumbnails till filmerna.
+Johan gör klart Heroku idag.
+
+3. Har vi några hinder idag?
+Pontus, inga probs
+Haeju, nej
+Roger, nej
+Carola, nope
+Johan, inga probs
+

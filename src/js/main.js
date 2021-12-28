@@ -1,4 +1,3 @@
-import { checking } from "./navbar";
 import { carousel } from "./carousel";
 carousel();
 // import {checking2} from './movieinfo.js';
@@ -19,3 +18,13 @@ async function test()
 console.log("Movie load: "+movieLoad2[0].title);
 };*/
 //export {movieLoad};
+import { renderCinemaCommercial } from "./commercial";
+import { navbarResponsive } from "./navbar";
+import { availableMovies } from "./availableMovies";
+
+(() => {
+  carousel();
+  navbarResponsive();
+  renderCinemaCommercial();
+  availableMovies();
+})();

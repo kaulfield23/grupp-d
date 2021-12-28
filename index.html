@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&family=Titillium+Web&display=swap" rel="stylesheet"> 
     <script
       src="https://kit.fontawesome.com/07a95dbd5e.js"
       crossorigin="anonymous"
@@ -25,26 +22,51 @@
 
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navbarLogo">
-          <a href="index.html">
-            <img class="logo" src="./src/img/logo.png" />
-          </a>
+      <div class="logoHead">
+        <div class="logoContainer">
+          <img class="logo" src="./src/img/logo.png" />
           <div class="logoText">
-            <a href="index.html">Cinema Risbäck</a>
+            <a href="">Cinema Risbäck</a>
+            <a href="index.html">
+              <img id="logoSanta" src="./src/img/pixlr-bg-result(4).png" />
+            </a>
           </div>
         </div>
-        <div class="navbarMenu">
-          <img src="./src//img/pixlr-bg-result(4).png" />
-          <a class="menuMovies" href="#">Filmer</a>
-          <a class="menuName" href="#">Biljetter</a>
-          <a class="menuName" href="#">Om oss</a>
-          <a class="menuName" href="#">Meny snacks</a>
-          <a class="menuName" href="#">Covid-info</a>
+      </div>
+      <nav>
+        <div class="topnav" id="navbar">
+          <a href="index.html" id="logoLink">
+            <img id="santaNav" src="./src/img/pixlr-bg-result(4).png" />
+          </a>
+          <a href="#news" class="menuMovies">Filmer</a>
+          <a href="#contact">Biljetter/reservation</a>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Om oss
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">FAQ</a>
+              <a href="#">Återbetalningsgaranti</a>
+              <a href="#">Historia</a>
+              <a href="#">Öppettider</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Meny snacks
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Sortiment</a>
+              <a href="#">Kampanj</a>
+              <a href="#">Dricka/Kaffe</a>
+              <a href="#">Menyer</a>
+            </div>
+          </div>
+          <a href="#">Covid-info</a>
+          <a href="javascript:void(0)" class="hamburger">&#9776;</a>
         </div>
-        <a href="#" class="hamburger" role="button">
-          <i class="fas fa-bars"></i>
-        </a>
       </nav>
     </header>
     <div class="carousel" id= "carousel">
@@ -73,9 +95,7 @@
     <main class="mainContainer">
       <div class="commercial">
         <div class="cinemaEvent eventContainer">
-          <div class="cEvents events">cinema event -1</div>
-          <div class="cEvents events">cinema event -2</div>
-          <div class="cEvents events">cinema event -3</div>
+          <h1 id="cinemaEventText">Bioevenemang</h1>
         </div>
         <div class="snacksEvent eventContainer">
           <div class="sEvents events">snack discount event -1</div>
@@ -105,28 +125,15 @@
         <h3 class="moreMovies">More movies</h3>
       </div>
       <div class="availableMovies">
-        <div class="kalendarium">kalendarium</div>
+        <h1 class="kalendarium">kalendarium</h1>
         <div class="ticketLists">
           <div class="today time">
             <h3>Idag</h3>
-            <ul>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-              <li class="availableLists">list</li>
-            </ul>
           </div>
         </div>
         <div class="ticketLists">
-          <div class="ticketeLists">
             <div class="tomorrow time">
               <h3>Imorgon</h3>
-              <ul>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-                <li class="availableLists">list</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -143,8 +150,7 @@
         </a>
       </div>
       <div class="footerElem risbackNum">
-        <i class="fas fa-mobile-alt"></i>
-        123-45 67 89
+        <i class="fas fa-mobile-alt"></i> 123-45 67 89
       </div>
 
       <div class="footerElem">
