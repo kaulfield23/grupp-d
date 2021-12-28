@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node app.js",
         "build": "webpack --config webpack.config.js",
-        "sass:watch": "sass --watch ./www/src/scss/main.scss main.css",
+        "sass:watch": "sass --watch ./src/scss/main.scss main.css",
         "webpack:watch": "webpack --watch"
     },
     "repository": {
