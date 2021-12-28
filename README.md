@@ -221,3 +221,35 @@ Scrum master Carola.
  *Carola: tekniska problem som ska lösas, pinpointa renderat card samt loopa igenom data.jason med id bla.
 
 Nästa möte: 28/12 kl. 9.00- lyfta frågan: när är vi redo för demo/codereview? (bokning av det) 
+
+
+##Möte 28/12
+Scrum-master Johan
+Närvarande:
+Johan
+Pontus
+Haeju
+Carola
+Roger
+ 
+1. Vad gjorde vi igår?
+Pontus gjorde klart trailergrej från PBI
+Haeju jobbade med available movies.
+Roger jobbade med covidinfo.
+Carola gjort klart movie info page.
+Johan implementerade navbar
+
+2. Vad ska vi göra idag?
+Pontus ska göra delen med att filtrera fram barnfilmer.
+Haeju jobbar med sina resterande PBIs.
+Roger gör klart sin covid-info page.
+Carola ska få fram lite mer thumbnails till filmerna.
+Johan gör klart Heroku idag.
+
+3. Har vi några hinder idag?
+Pontus, inga probs
+Haeju, nej
+Roger, nej
+Carola, nope
+Johan, inga probs
+
