@@ -9,6 +9,7 @@
       "age": 7,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/a2bf7d7644c441f39b4617dcaab84932.jpg?width=240&version=E014D09A01258F413C7D9872A3BB2F81&format=webp",
+      "backgroundImg":"https://image.tmdb.org/t/p/w1280/3GgkzCDq6KYpcmJmcOKh27hYRyj.jpg",
       "trailer": "https://www.youtube.com/embed/fMbV1BDlmqQ",
       "bannerImg": "../src/img/carousel/ainbo.jpg",
       "date": [
@@ -31,6 +32,7 @@
       "age": 7,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/156e1c728c0e4158b85eaa7236de17cf.jpg?width=240&version=AEF2B771F19E95BF429F626A91D95BEC&format=webp",
+      "backgroundImg":"https://www.varmland.bio/wp-content/uploads/2021/07/10E35_SQ3100_S34_SQ8001_S101_00134-1200x498.jpg",
       "trailer": "https://www.youtube.com/embed/QPzy8Ckza08",
       "bannerImg": "../src/img/carousel/boss-baby.jpg",
       "date": [
@@ -53,6 +55,7 @@
       "age": 11,
       "rating": 5,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+      "backgroundImg":"http://image.tmdb.org/t/p/original/1am1E69hz5UbbnQaXl7KTD50dzW.jpg",
       "trailer": "https://www.youtube.com/embed/8g18jFHCLXk",
       "bannerImg": "../src/img/carousel/dune.jpg",
       "date": [
@@ -75,6 +78,7 @@
       "age": 15,
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/0242ca14a40c4a20adc4278d6d5d8853.jpg?width=240&version=1337BBB120520A6A8927D5C437D9DE19&format=webp",
+      "backgroundImg":"https://i.ytimg.com/vi/v9RvJmDMZHU/maxresdefault.jpg" ,
       "trailer": "https://www.youtube.com/embed/-ezfi6FQ8Ds",
       "bannerImg": "../src/img/carousel/venom.jpg",
       "date": [
@@ -97,6 +101,7 @@
       "age": 11,
       "rating": 5,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/83a647a9bf5a4f1ab1520210cd8f29c7.jpg?width=240&version=FFC14568CDEE5503DEDDB7EEB3FC2940&format=webp",
+      "backgroundImg":"https://assets.mubicdn.net/images/film/243061/image-w856.jpg?1568336436",
       "trailer": "https://www.youtube.com/embed/9ix7TUGVYIo",
       "bannerImg": "../src/img/carousel/the-matrix-resurrections.jpg",
       "date": [
@@ -119,6 +124,7 @@
       "age": 11,
       "rating": 2,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2bb6d8d9c375416f82584e0a0824b7cd.jpg?width=240&version=FF84E2F7557E2E2836A0C7EFFE844AAE&format=webp",
+      "backgroundImg":"https://gogomagazine.it/wp-content/uploads/2021/03/house_of_gucci_bacio_lady_gaga_adam_driver-1536x1268.jpg", 
       "trailer": "https://www.youtube.com/embed/pGi3Bgn7U5U",
       "bannerImg": "../src/img/carousel/house-of-gucci.jpg",
       "date": [
@@ -141,6 +147,7 @@
       "age": 11,
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/01691481cbe1482f8f4c8063510f9c6f.jpg?width=240&version=A19103CA7793183CD8B9765948343211&format=webp",
+      "backgroundImg":"https://www.looper.com/img/gallery/sword-art-online-progressive-aria-of-a-starless-night-release-date-characters-and-plot-what-we-know-so-far/when-will-saop-aria-of-a-starless-night-release-1629742703.jpg",
       "trailer": "https://www.youtube.com/embed/blAzIwXB9zo",
       "bannerImg": "../src/img/bannerImg/sword.jpg",
       "date": [
@@ -163,6 +170,7 @@
       "age": 7,
       "rating": 1,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/ea33a0786df44ae3ba11b00cbf4c9c45.jpg?width=240&version=72C5A354FCD4FC504ED7C720777F50F5&format=webp",
+      "backgroundImg":"https://imgs.aftonbladet-cdn.se/v2/images/a4876ca9-398a-4b33-9f2a-40fc6e9b5cf1?fit=crop&h=1188&q=50&w=1900&s=59362c11ceea5ae12df7c798047ade9c5ce3807a",
       "trailer": "https://www.youtube.com/embed/MYXNGINlpVU",
       "bannerImg": "../src/img/bannerImg/zlatan.jpg",
       "date": [
@@ -185,6 +193,7 @@
       "age": 15,
       "rating": 2,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/27495dee3b1741c19ba203c0843b61e4.jpg?width=240&version=9D623BE10E734B50C2C20612C5F2430E&format=webp",
+      "backgroundImg":"https://static.toiimg.com/thumb/msid-74488240,width-800,height-600,resizemode-75,imgsize-897972,pt-32,y_pad-40/74488240.jpg",
       "trailer": "https://www.youtube.com/embed/QHdkC6Kn0Io",
       "bannerImg": "../src/img/bannerImg/83-movie-1640395397.jpg",
       "date": [
@@ -207,6 +216,7 @@
       "age": 11,
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/3d06c2c867a4428483180ed62f14f986.jpg?width=240&version=D826CD19B739279127E4C920CB7D22E4&format=webp",
+      "backgroundImg":"https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/386029/958dcde06c53a4ea6bffd2e90d403bc3-queen-margrete.jpg",
       "trailer": "https://www.youtube.com/embed/GVdFl6GacTI",
       "bannerImg": "../src/img/bannerImg/drottning-margareta_60a7cfd5a3775-1.jpg",
       "date": [
