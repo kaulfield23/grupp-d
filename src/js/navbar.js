@@ -1,4 +1,5 @@
 import { loadMoviePage } from "./pages/moviepage";
+import { covidInforation } from "./pages/covidInfo";
 
 export const checking = () => {
   console.log("navbar.js is loaded");
@@ -10,7 +11,7 @@ movieBtn.addEventListener("click", () => {
 
 const covidBtn = document.querySelector(".Covid-info");
 covidBtn.addEventListener("click", () => {
-  console.log("test");
+  covidInforation();
 });
 
 // navbarResponsive toggles adds a class "responsive" to the hamburger button in navbar
