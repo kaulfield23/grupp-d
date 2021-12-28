@@ -8,6 +8,11 @@ movieBtn.addEventListener("click", () => {
   loadMoviePage();
 });
 
+const covidBtn = document.querySelector(".Covid-info");
+covidBtn.addEventListener("click", () => {
+  console.log("test");
+});
+
 // navbarResponsive toggles adds a class "responsive" to the hamburger button in navbar
 export const navbarResponsive = () => {
   const hamburger = document.querySelector(".hamburger");
