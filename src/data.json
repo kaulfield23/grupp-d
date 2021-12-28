@@ -10,7 +10,7 @@
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/a2bf7d7644c441f39b4617dcaab84932.jpg?width=240&version=E014D09A01258F413C7D9872A3BB2F81&format=webp",
       "backgroundImg":"https://image.tmdb.org/t/p/w1280/3GgkzCDq6KYpcmJmcOKh27hYRyj.jpg",
-      "trailer": "https://www.youtube.com/watch?v=fMbV1BDlmqQ",
+      "trailer": "https://www.youtube.com/embed/fMbV1BDlmqQ",
       "bannerImg": "../src/img/carousel/ainbo.jpg",
       "date": [
         "2021-12-23",
@@ -33,7 +33,7 @@
       "rating": 3,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/156e1c728c0e4158b85eaa7236de17cf.jpg?width=240&version=AEF2B771F19E95BF429F626A91D95BEC&format=webp",
       "backgroundImg":"https://www.varmland.bio/wp-content/uploads/2021/07/10E35_SQ3100_S34_SQ8001_S101_00134-1200x498.jpg",
-      "trailer": "https://www.youtube.com/watch?v=QPzy8Ckza08",
+      "trailer": "https://www.youtube.com/embed/QPzy8Ckza08",
       "bannerImg": "../src/img/carousel/boss-baby.jpg",
       "date": [
         "2021-12-23",
@@ -125,7 +125,7 @@
       "rating": 2,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/2bb6d8d9c375416f82584e0a0824b7cd.jpg?width=240&version=FF84E2F7557E2E2836A0C7EFFE844AAE&format=webp",
       "backgroundImg":"https://gogomagazine.it/wp-content/uploads/2021/03/house_of_gucci_bacio_lady_gaga_adam_driver-1536x1268.jpg", 
-      "trailer": "https://www.youtube.com/watch?v=pGi3Bgn7U5U",
+      "trailer": "https://www.youtube.com/embed/pGi3Bgn7U5U",
       "bannerImg": "../src/img/carousel/house-of-gucci.jpg",
       "date": [
         "2021-12-23",
