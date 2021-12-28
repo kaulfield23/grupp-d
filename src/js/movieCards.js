@@ -6,7 +6,7 @@ export const movieCards = (data) => {
   card.setAttribute("class", "card");
   container.append(card);
   card.addEventListener("click", function(){
-      movieInformation();
+  movieInformation();
   });
   
   const visuals = document.createElement("div");
@@ -61,11 +61,10 @@ export const movieCards = (data) => {
   rating.setAttribute("class", "rating");
   rating.innerText = data.rating;
   info.append(rating); */
-
+  
 const mainContent = document.getElementById("movies");
   
-function movieInformation(title, backgroundImg, coverImg, description, genres, length, age, rating) {
-
+function movieInformation() {
      mainContent.innerText ="";
     //  document.getElementById("carousel").innerText= "";
 
@@ -80,18 +79,35 @@ function movieInformation(title, backgroundImg, coverImg, description, genres, l
   movieTitle.innerText =`${data.title}`;
   movieInfoModal.append(movieTitle);
 
-const movieBackgroundImage = document.createElement("img");"backgroundImg"
+const movieBackgroundImage = document.createElement("img");
 movieBackgroundImage.setAttribute("id", "backgroundImg");
 movieBackgroundImage.src=`${data.backgroundImg}`;
-movieBackgroundImage.innerText=`${backgroundImg}`;
+movieBackgroundImage.innerText=`${data.backgroundImg}`;
 movieInfoModal.append(movieBackgroundImage);
+
   const movieCoverInfo = document.createElement("img");
   movieCoverInfo.setAttribute("id", "movieImgInfo");
   movieCoverInfo.src =`${data.coverImg}`;
-  movieCoverInfo.innerText =`${coverImg}`;
+  movieCoverInfo.innerText =`${data.coverImg}`;
   movieInfoModal.append(movieCoverInfo);
   
+const movieThumbOne = document.createElement("img");
+movieThumbOne.setAttribute("id", "movieThumbOne");
+movieThumbOne.src = `${data.img1}`;
+movieThumbOne.innerText = `${data.img1}`;
+movieInfoModal.append(movieThumbOne);
 
+const movieThumbTwo = document.createElement("img");
+movieThumbTwo.setAttribute("id", "movieThumbTwo");
+movieThumbTwo.src = `${data.img2}`;
+movieThumbTwo.innerText = `${data.img2}`;
+movieInfoModal.append(movieThumbTwo);
+
+const movieThumbThree = document.createElement("img");
+movieThumbThree.setAttribute("id", "movieThumbThree");
+movieThumbThree.src = `${data.img3}`;
+movieThumbThree.innerText = `${data.img3}`;
+movieInfoModal.append(movieThumbThree);
 
   const movieSmallText = document.createElement("p");
   movieSmallText.setAttribute("id", "smallText");
@@ -102,11 +118,10 @@ movieInfoModal.append(movieBackgroundImage);
   movieInfoText.setAttribute("id","movieInfoText");
   movieInfoText.innerText= `${data.description}`;
   movieInfoModal.append(movieInfoText);
-  
+
   const bookMovie = document.createElement("button");
   bookMovie.setAttribute("id", "movieBooking-cta");
-  bookMovie.innerText =`Book Tickets`;
+  bookMovie.innerText =`Biljetter`;
   movieInfoModal.append(bookMovie);
-
 };
 };
