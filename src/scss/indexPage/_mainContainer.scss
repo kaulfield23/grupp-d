@@ -76,6 +76,15 @@
     .movieIndex {
       position: relative;
       margin: 15px 0;
+      @media screen and (max-width: 1310px) {
+        width: 80%;
+        margin: 10px auto;
+      }
+      @media screen and (max-width: 600px) {
+        width: 100%;
+        margin: 10px 0;
+      }
+
       img {
         width: 100%;
       }
