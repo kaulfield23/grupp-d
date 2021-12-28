@@ -21,9 +21,11 @@ export const movieCards = (data) => {
   const openVideo = () => {
     const videoModal = document.createElement("div");
     videoModal.setAttribute("class", "videoModal");
-    window.addEventListener("click", (e) => {
+    const closeTrailerWindow = (e) => {
       e.target.className.includes("videoModal") ? e.target.remove() : null;
-    });
+    };
+    window.addEventListener("touchstart", closeTrailerWindow);
+    window.addEventListener("click", closeTrailerWindow);
 
     const video = document.createElement("iframe");
     video.setAttribute("class", "video-trailer");
