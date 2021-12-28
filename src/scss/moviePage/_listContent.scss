@@ -26,3 +26,46 @@
     font-family: "Bebas Neue";
   }
 }
+#movieInfoWrapper {
+  background-color: white;
+  font-family: "Bebas Neue";
+  margin: 2 0 0.1em 0;
+  z-index: 0;
+}
+#movieInfoModal {
+  z-index: 1;
+}
+#movieTitel {
+  text-align: center;
+  z-index: 1;
+}
+#movieInfoText {
+  text-align: left;
+  font-family: "areal round";
+  font-weight: normal;
+  font-size: 1rem;
+  z-index: 1;
+}
+#movieBooking-cta {
+  background-color: $cDarkGreen;
+  width: 8rem;
+  font-weight: bold;
+  margin-top: -1rem;
+  margin-left: 55rem;
+}
+#movieImgInfo {
+  margin-top: -30rem;
+  padding-bottom: 1.5rem;
+  width: 20%;
+  z-index: 1;
+}
+#smallText {
+  margin-left: -1rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
+#backgroundImg {
+  width: 100%;
+  height: 40%;
+  z-index: 0;
+}
