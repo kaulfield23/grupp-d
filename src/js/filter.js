@@ -8,5 +8,5 @@ export const filterToday = (movies) =>
 export const filterUpcoming = (movies) =>
   movies.filter((movie) => !movie.date.includes(currentDay));
 
-/* export const filterChildCinema = (movies) =>
-  movies.filter((movie) => movie.age < 11); */
+export const filterChildCinema = (movies) =>
+  movies.filter((movie) => movie.age < 11);
