@@ -14,8 +14,8 @@
       "img1":"https://catalog.cinema-api.com/cf/images/ncg-images/a4ef2702b6e9416bb311ad3e07121ca0.jpg?width=1920&version=1765DD196CEE87D0E0EA4910B80A486A",
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/044a1b30ac1b497db43a73f5ddf210bd.jpg?width=1920&version=787B0C56B8693CE0E912E676C75A9B4C",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/3997f443d70d415da424df5dbf429cb1.jpg?width=1920&version=DB4D136D8EF635216927F6047850C578",
-      "trailer": "https://www.youtube.com/watch?v=fMbV1BDlmqQ",
-      "bannerImg": "../src/img/carousel/ainbo.jpg",
+      "trailer": "https://www.youtube.com/embed/fMbV1BDlmqQ",
+      "bannerImg": "src/img/carousel/ainbo.jpg",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -69,7 +69,7 @@
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/07a0cf1dd22d4df9b9717eea5d791994.jpg?width=1920&version=DA5C765F119B4BA9A55D4C71B81E6C8A",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/29eefc032fc949afa912012691e94051.jpg?width=1920&version=9396341623A6B63184AE0A576F7026EE",
       "trailer": "https://www.youtube.com/embed/8g18jFHCLXk",
-      "bannerImg": "../src/img/carousel/dune.jpg",
+      "bannerImg": "src/img/carousel/dune.jpg",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -96,7 +96,7 @@
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/670b7464324b4671a8eaa5a034784e06.jpg?width=1920&version=BFFC78A7ADC64EB9FE25232717AD0A02",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/1b771f5e725e47849d19b6316f68c849.jpg?width=1920&version=3E960C0435F75F3741B9D0E4B3517939",
       "trailer": "https://www.youtube.com/embed/-ezfi6FQ8Ds",
-      "bannerImg": "../src/img/carousel/venom.jpg",
+      "bannerImg": "src/img/carousel/venom.jpg",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -123,7 +123,7 @@
       "img2":"https://filmparadiset.se/wp-content/uploads/2021/09/The-Matrix-Resurrection-04-1024x594.jpeg",
       "img3":"https://digitalt.tv/wp-content/uploads/2021/12/The-Matrix-Resurrections.jpeg",
       "trailer": "https://www.youtube.com/embed/9ix7TUGVYIo",
-      "bannerImg": "../src/img/carousel/the-matrix-resurrections.jpg",
+      "bannerImg": "src/img/carousel/the-matrix-resurrections.jpg",
       "date": [
         "2021-12-23",
         "2021-12-25",
@@ -177,7 +177,7 @@
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/308b699795ff49bd848503966781b292.jpg?width=1920&version=658E725CC5A735E800BF794FED4BAF1F",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/2163b47a6a6a4e8faff3c59542731e1c.jpg?width=1920&version=EDCD3470FF5BDD5A0B0A522D3AF5BE1F",
       "trailer": "https://www.youtube.com/embed/blAzIwXB9zo",
-      "bannerImg": "../src/img/bannerImg/sword.jpg",
+      "bannerImg": "src/img/bannerImg/sword.jpg",
       "date": [
         "2022-01-23",
         "2022-01-25",
@@ -204,7 +204,7 @@
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/849788f25fb04918ab6cde09d47dee93.jpg?width=1920&version=8F49FDCBED64AAF7F73C626ECBFEF867",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/52906287de3f4373b641e17db21d8b23.jpg?width=1920&version=44CC15148AFC9F29541818C0917EC2F4",
       "trailer": "https://www.youtube.com/embed/MYXNGINlpVU",
-      "bannerImg": "../src/img/bannerImg/zlatan.jpg",
+      "bannerImg": "src/img/bannerImg/zlatan.jpg",
       "date": [
         "2022-01-23",
         "2022-01-25",
@@ -231,7 +231,7 @@
       "img2":"https://news24buzz.com/wp-content/uploads/2021/12/83-Movie-Day-1-Box-Office-83-hit-sixes-and.jpg",
       "img3":"https://ichef.bbci.co.uk/news/1024/branded_news/17DCB/production/_122493779_83.jpg",
       "trailer": "https://www.youtube.com/embed/QHdkC6Kn0Io",
-      "bannerImg": "../src/img/bannerImg/83-movie-1640395397.jpg",
+      "bannerImg": "src/img/bannerImg/83-movie-1640395397.jpg",
       "date": [
         "2022-01-23",
         "2022-01-25",
@@ -258,7 +258,7 @@
       "img2":"https://catalog.cinema-api.com/cf/images/ncg-images/7c35392187884b5b9fdcfecfbec0541c.jpg?width=1920&version=FF93C591857FC3BFAABF6D5731CB2EFC",
       "img3":"https://catalog.cinema-api.com/cf/images/ncg-images/a435baffd72c46f1add95ba2e29ee826.jpg?width=1920&version=22E40A66B613B7218B142E0D1E36E96E",
       "trailer": "https://www.youtube.com/embed/GVdFl6GacTI",
-      "bannerImg": "../src/img/bannerImg/drottning-margareta_60a7cfd5a3775-1.jpg",
+      "bannerImg": "src/img/bannerImg/drottning.jpg",
       "date": [
         "2022-01-23",
         "2022-01-25",
@@ -281,6 +281,7 @@
       "rating": 4,
       "coverImg": "https://catalog.cinema-api.com/cf/images/ncg-images/b7e668f8ae0f4b7c804e8c5d3d29a2de.jpg?width=240&version=BB041036F864B00887D909E9A8986C01&format=webp",
       "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+      "bannerImg": "src/img/bannerImg/spiderman.jpg",
       "date": ["2022-01-10"],
       "time": 14.3
     }

@@ -61,31 +61,51 @@
     color: rgb(209, 214, 211);
     transition: background-color 0.5s ease;
     width: 340px;
-    margin: 0 auto;
+    margin: 70px auto;
     &:hover {
       background-color: rgb(91, 133, 111);
     }
     @include desktop {
-      width: 100%;
+      width: 70%;
     }
-  }
-  .moreMovies {
-    text-align: center;
-    margin: 2.2rem 0;
-    cursor: pointer;
   }
   grid-column: 3/11;
   .movieContainer {
-    border: 2px solid rgb(204, 185, 146);
     padding: 0 10px;
     text-align: center;
-    .movieLists {
-      border: 1px solid rgb(204, 185, 146);
-      padding: 80px 0;
-      margin: 1rem 0;
-      @include desktop {
-        padding: 150px 0;
-        margin: 3rem 0;
+    .movieIndex {
+      position: relative;
+      margin: 15px 0;
+      @media screen and (max-width: 1310px) {
+        width: 80%;
+        margin: 10px auto;
+      }
+      @media screen and (max-width: 600px) {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      img {
+        width: 100%;
+      }
+      .movieBannerTitle {
+        position: absolute;
+        bottom: 2%;
+        left: 3px;
+        color: white;
+        font-family: "anton";
+        font-size: 15px;
+        @include desktop {
+          font-size: 30px;
+        }
+      }
+      .movieBannerDate {
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        color: white;
+        font-size: 20px;
+        font-family: "anton";
       }
     }
   }
