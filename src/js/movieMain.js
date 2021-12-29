@@ -1,5 +1,5 @@
 import { renderMovies } from "./render.js";
-import { filterToday, filterUpcoming } from "./filter.js";
+import { filterToday, filterUpcoming, filterChildCinema } from "./filter.js";
 import { loadMovieAPI } from "./api.js";
 
 const api = await loadMovieAPI();
