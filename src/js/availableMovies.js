@@ -27,6 +27,14 @@ export const availableMovies = async () => {
   availableForTomorrow.forEach((item) => {
     createLists(item, "tomorrow");
   });
+  if (availableForTomorrow.length === 0) {
+    let warning = document.querySelector(".tomorrow");
+    let span = createElement("span", "warning");
+    span.innerText = `There is no available movies`;
+    span.style.fontFamily = "anton";
+    span.style.color = "grey";
+    warning.appendChild(span);
+  }
 };
 
 //when current day is 31, then it sets to 1 for the next day I suppose..
