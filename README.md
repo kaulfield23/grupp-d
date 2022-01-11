@@ -1,3 +1,18 @@
+## This is the second group project from school (Arbetsmetodik och Agila projektmetoder)
+The course itself was focused on how to work with other people with agile methods. 
+
+## What I learned
+1. Learned work methods to work together with other people(tried Projects in github)
+2. I tried Daily scrum, Planning poker, also made burndown chart
+3. I made wireframe with whimsical for making pages.
+
+
+
+
+
+
+
+
 ## Link to WBS
 - Först
 https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzYyMDFiODY5NzkxNTQzZjI5MjQzYWM1MzE5MDVmMGY4XzRiYWVmZjJiLWE1YTQtNGVmMC05NjcwLWEzMzM5ZTc4OTMzNF84YTFjYTUxYy02NmI4LTRmODktOThjMS0yY2Q4NTZjY2ExZTY=
