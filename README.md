@@ -1,4 +1,4 @@
-## This is the second group project from school (Arbetsmetodik och Agila projektmetoder)
+## The second group project from school (Arbetsmetodik och Agila projektmetoder course)
 The course itself was focused on how to work with other people with agile methods. 
 
 ## What I learned
