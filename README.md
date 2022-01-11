@@ -2,7 +2,7 @@
 The course itself was focused on how to work with other people with agile methods. 
 
 ## What I learned
-1. Learned work methods to work together with other people(tried Projects in github)
+1. Learned working methods to work together with other people(tried Projects in github)
 2. I tried Daily scrum, Planning poker, also made burndown chart
 3. I made wireframe with whimsical for making pages.
 
