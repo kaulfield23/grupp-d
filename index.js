@@ -15,6 +15,14 @@ app.get("/moviepage", async (req, res) => {
   res.render('moviePage', {layout : 'main'});
 
 });
+app.get("/tickets", async (req, res) => {
+  res.render('tickets', {layout : 'main'});
+
+});
+app.get("/covid", async (req, res) => {
+  res.render('covid', {layout : 'main'});
+
+});
 app.use(express.static("./"));
 
 // app.get('/*', async (req, res) =>{
